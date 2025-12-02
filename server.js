@@ -3,9 +3,9 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const pacientesRoutes = require('./src/routes/pacientes');
-const consultasRoutes = require('./src/routes/consultas');
-const usuariosRoutes = require('./src/routes/usuarios');
+const pacientesRoutes = require('./src/routes/pacientes.route');
+const consultasRoutes = require('./src/routes/consultas.route');
+const usuariosRoutes = require('./src/routes/usuarios.route');
 
 app.use(express.json());
 
