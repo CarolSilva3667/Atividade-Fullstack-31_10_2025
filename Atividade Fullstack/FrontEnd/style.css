@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f6f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #34495e;
+  margin-top: 25px;
+}
+
+#totalConsultas,
+#totalStatus li,
+#totalEspecialidade li {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: white;
+  margin-bottom: 8px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+a {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  background: #34d0db;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: #1d6fa5;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Consultas</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body onload="listarConsultas()">
+
+  <div class="container">
+    <h1>Lista de Consultas</h1>
+    <ul id="listaConsultas"></ul>
+    <hr>
+    <h2>Buscar por especialidade</h2>
+    <input type="text" id="buscaEspecialidade" placeholder="Ex: Cardiologia">
+    <button onclick="buscarPorEspecialidade()">Buscar</button>
+
+    <div id="resultadoBusca"></div>
+    <a href="pagina2.html">Ir para Página 2</a>
+  </div>
+  
+</body>
+</html>
