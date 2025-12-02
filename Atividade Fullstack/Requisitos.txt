@@ -1,0 +1,36 @@
+Requisitos 
+
+Querem:
+- Organização;
+- Gerenciamento de consultas;
+- Gerenciamento de pacientes;
+- Gerenciamento da equipe;
+
+Acessos permitidos:
+- Sistema com níveis de acesso: Administradores, Atendentes e Médicos (Cada um tem suas funções e restrições);
+- Administradores: cadastrar médicos e pacientes, agendar consultas, acessar relatórios e conseguir ver todas as informações do sistema;
+- Atendentes: cadastrar pacientes e agendar consultas, mas NÃO devem ter ACESSO a dados sensíveis como relatórios ou exclusão de registros;
+- Médicos: apenas podem acessar as consultas que foram marcadas com eles, e os dados dos seus próprios pacientes;
+
+Consultas:
+- Qual paciente;
+- Qual médico;
+- Data e Hora;
+- Status: Agendada, em andamento ou finalizada;
+
+NÃO Querem:
+- Duas consultas para um único paciente com o mesmo médico no mesmo dia;
+- datas atuais;
+
+Médicos - especialidades:
+- Cardiologia;
+- Ortopedia;
+- Clínica geral;
+- Pediatria;
+- Traumatologia;
+- Obstetrícia;
+
+O sistema precisa gerar os seguintes relatórios:
+- Quantas consultas foram feitas por especialidade;
+- Quantos pacientes cada médico atendeu;
+- Uma listagem geral de consultas com o nome do paciente, a especialidade do médico, data e status.
